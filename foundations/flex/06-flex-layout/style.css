@@ -40,7 +40,6 @@ ul {
 a {
   color: #666;
   font-size: 16px;
-  margin: 8px;
   /* this removes the line under the links */
   text-decoration: none;
 }
@@ -79,3 +78,6 @@ a {
   gap: 16px;
 }
 
+button {
+  padding: 8px 16px;
+}
