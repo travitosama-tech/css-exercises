@@ -6,31 +6,17 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  text-align: center;
 }
 
-.left-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 16px;
-}
-
-.right-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 16px;
-}
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
-  padding: 8px;
   margin: 0;
+  padding: 0;
+  gap: 52px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -67,8 +53,4 @@ a {
 
 ul {
   list-style-type: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  gap: 16px;
 }
